@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Poster Project</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!--Start of Container For Movie Posters-->
+    <div class="container">
+       
+        <div class="gallery"> <!--TODO Add onclick event listener for figures-->
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)" >
+                <img class="gallery__img" src="images/c-d-x-PDX_a_82obo-unsplash.jpg" alt="Raataan lambiyan">
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/pexels-josh-sorenson-995301.jpg" alt=" ed-sheeran Shape of you">
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/pexels-elviss-railijs-bitāns-1389429.jpg" alt="Hey I was doing just fine">
+            </figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/pexels-jessica-lewis-creative-1010519.jpg" alt="Here's to the one we got">
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/pexels-tim-mossholder-668295.jpg" alt="lag ja gale ke phir">
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/pexels-everson-mayer-1481309.jpg" alt="Tera ban jauga">
+            </figure>
+        </div>
+        <div class="button-style">
+        <button  onclick="stopSnippet()" >Stop Song</button> <!--TODO Add onclick event listener-->
+        </div>
+    </div>
+    
+</body>
+</html>
